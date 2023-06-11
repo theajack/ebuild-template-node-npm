@@ -7,7 +7,7 @@ const { build } = require('esbuild');
 const { resolveRootPath } = require('./helper/utils');
 
 main(
-    resolveRootPath('src/index.ts'),
+    resolveRootPath('src/dev/dev.ts'),
     resolveRootPath('scripts/dev/bundle.min.js')
 );
 

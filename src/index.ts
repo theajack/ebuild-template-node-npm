@@ -4,4 +4,4 @@
  * @Description: Coding something
  */
 
-console.log("Hello World!")
+export default 'Hello World!';
